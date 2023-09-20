@@ -13,3 +13,12 @@ Also there is a short hand method as well which we can use for declaring and ini
 ```
 <"name"> := <"value">
 ```
+
+We can initialize multiple variables as well by using all of the methods above
+```
+<"var"> <"name1">, <"name2"> <"optional data-type"> = <"value1">,<"value2">
+```
+OR 
+```
+<"name1">, <"name2"> := <"value1">, <"value2"> 
+```
