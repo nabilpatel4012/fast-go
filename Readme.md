@@ -53,11 +53,46 @@ bool = false
 
 string = ""
 ```
-**NOTE**
+**NOTE:**
 Constants cannot be declared without any value, that is we have to initialize it with a value
 ```go
 const myConst int               <-(This will give an error)
 
 // Correct way of writing
 const myNewConst int = 100      <- Will execute without any problem
+```
+## Functions
+Functions plays very important role in every programming language. 
+They help us avoid repetative code. 
+Functions can be considered as lego blocks where we can join the blocks to make something useful and meaningful out of it.
+
+Let's take a look at the syntax of Function
+```go
+func <"Function name">(<"input argument">) <"return-type"> {
+    <"return statement">
+}
+```
+**NOTE:** 
+The "input argument", "return-type" and "return statement" are optional and they depend on the requirement and what we want
+
+Below are some examples
+```go
+func printMe() {
+  fmt.Println("I am printed!!!")
+}
+
+func myFunctionWithInput(value string) {
+  fmt.Println(value)
+}
+
+func myFunctionWithReturnType(value int) int {
+  var square = value*value
+  return square
+}
+
+func myFunctionWithMultipleReturnType(value int, name string) (int, string) {
+  var square = value*value
+  myMessage := "Hello Nabil"
+  return square,myMessage
+}
 ```
