@@ -3,11 +3,11 @@
 
 We can declare variable by typing 
 ```go
-<"var"> <"name"><"data-type"> 
+var <"name"><"data-type"> 
 ```
 Or we can declare and initialize at the same without specifying the data-type 
 ```go
-<"var"> <"name"> = <"value"> 
+var <"name"> = <"value"> 
 ```
 Also there is a short hand method as well which we can use for declaring and initializing a variable short hand by using ":=" only 
 ```go
@@ -16,7 +16,7 @@ Also there is a short hand method as well which we can use for declaring and ini
 
 We can initialize multiple variables as well by using all of the methods above
 ```go
-<"var"> <"name1">, <"name2"> <"optional data-type"> = <"value1">,<"value2">
+var <"name1">, <"name2"> <"optional data-type"> = <"value1">,<"value2">
 ```
 OR 
 ```go
