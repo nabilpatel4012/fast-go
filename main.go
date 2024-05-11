@@ -43,6 +43,6 @@ func myFunctionWithReturnType(value int) int {
 
 func myFunctionWithMultipleReturnType(value int, name string) (int, string) {
 	var square = value * value
-	myMessage := "Hello Nabil"
+	myMessage := "Hello" + name
 	return square, myMessage
 }
