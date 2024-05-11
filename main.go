@@ -29,6 +29,7 @@ func main() {
 // Without return-type and input arguments
 func printMe() {
 	fmt.Println("I am printed!!!")
+	fmt.Println("Also I am printed")
 }
 
 func myFunctionWithInput(value string) {
